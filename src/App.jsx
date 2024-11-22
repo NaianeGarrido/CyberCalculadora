@@ -100,7 +100,7 @@ export default function App() {
   const [resultado, setResultado] = useState();
 
   useEffect(() => { 
-    const audioElement = new Audio("src/assets/Cyberchase.mp3"); 
+    const audioElement = new Audio("public/assets/Cyberchase.mp3"); 
     audioElement.loop = true; 
     audioElement.autoplay = true;
 
